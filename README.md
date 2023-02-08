@@ -93,7 +93,7 @@ Se requiere un programa en Java para convertir una cantidad de dinero en otros t
 
  ## Etapa 03. Diseño la solución
  
- ![ejercicio2Diagram2](https://user-images.githubusercontent.com/120700188/217593597-72127dd4-8ca7-4cfd-9fcc-43362964a908.png)
+ ![](https://github.com/omararguellesgar/Ejercicios04-02-2023/blob/master/Diagrama%2004.02.2023.png)
 
  ## Etapa 04. Desarrollo de la solución
  ~~~
