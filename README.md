@@ -160,7 +160,7 @@ public class Main {
 ## Etapa 06. Documentación
 Mediante el codigo fuente presentado se podra observar una serie de conversiones de un tipo de moneda a otra, este software fue creado con la intecion de ayudar de una manera rapida a poder conocer los valores de intercambio de monedas de algunos paises que se tomaron como ejemplos.
  
- ## Ejercicio 02.
+ ## Ejercicio 02
 
 
  ## Etapa 01. Descripción del problema
@@ -290,7 +290,7 @@ public class Main {
  Mediante el codigo fuente presentado se podran realizar las operaciones artimeticas basicas empleando los metodos implementados, dando como resultado una suma, una   resta, una multiplicación, una division y el modulo de un par de numeros.
  
  
-##  Ejercicio 03.
+##  Ejercicio 03
 
 
 ## Etapa 01. Descripción del problema
@@ -301,13 +301,15 @@ Se requiere un programa en Java para determinar cuál es el número más pequeñ
 
 ~~~
 - Entrada
-  int num1
-  int num2
-  int num3
+  float numero, numero2, numero3, media = 0;
   
 - Proceso
-  Solicitar numero1, numero2 y numero 3
-  Si el primer numero ingresado es menor que el tercero y mayor que el segundo entonces el segundo es el intermedio
+  Solicitar primer numero a evaluar
+  Solicitar segundo numero a evaluar
+  Solicitar tercer numero a evaluar
+  Si el primer numero ingresado es mayor o igual que el segundo numero y es mayor o igual al tercer numero, el numero de medio es el segundo numero.
+  Si el segundo numero ingresado es mayor o igual que el tercer numero y el tercer numero es mayor o igual al primer numero, el numero de medio es el tercer numero.
+  Si el tercer numero ingresado es mayor o igual que el numero uno y el primer numero es mayor o igual al segundo numero, el numero de medio es el primer numero. 
   Comprobar numero mas pequeño
   Comprobar numero intermedio
   Comprobar numero mas grande
@@ -319,7 +321,8 @@ Se requiere un programa en Java para determinar cuál es el número más pequeñ
  
  
 ## Etapa 03. Diseño la solución
- 
+
+
 
 ## Etapa 04. Desarrollo de la solución
  
