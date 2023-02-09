@@ -4,16 +4,18 @@ actividad de clase 04/02/2023
 
 
 ## Etapa 01. Descripción del problema
-Se requiere un programa en Java para convertir una cantidad de dinero en otros tipos de monedas (al menos a cinco tipos de monedas distintas). 
 
+Se requiere un programa en Java para convertir una cantidad de dinero en otros tipos de monedas (al menos a cinco tipos de monedas distintas). 
 
 ## Etapa 02. Definición de la solución
 
 ~~~
 - Entrada
+  
   double monto , valorDolar = 18.94, valorEuro = 20.29, valorLibra = 22.86, valorFranco = 20.55, valorBit = 434812.81
   
 - Proceso
+  
   Conversion de dolar a peso
   Conversion de peso a dolar
   Conversion de euro a peso
@@ -24,8 +26,7 @@ Se requiere un programa en Java para convertir una cantidad de dinero en otros t
   Conversion de peso a franco
   Conversion de bitcoin a peso
   Conversion de peso a bitcoin
-  
-  
+    
 - Salida
   
   +----------+---------------+----------------------+----------------+
@@ -54,14 +55,12 @@ Se requiere un programa en Java para convertir una cantidad de dinero en otros t
 
 ~~~
 
-
- ## Etapa 03. Diseño la solución
+## Etapa 03. Diseño la solución
  
- ![](https://github.com/omararguellesgar/Ejercicios04-02-2023/blob/master/Diagrama%2004.02.2023.1.png)
- 
- 
- ## Etapa 04. Desarrollo de la solución
-  ~~~
+![](https://github.com/omararguellesgar/Ejercicios04-02-2023/blob/master/Diagrama%2004.02.2023.1.png)
+  
+## Etapa 04. Desarrollo de la solución
+~~~
  public class Ejercicio {
     double monto, valorDolar = 18.94, valorEuro = 20.29, valorLibra = 22.86, valorFranco = 20.55, valorBit = 434812.81 ;
 
@@ -137,10 +136,11 @@ public class Main {
     }
 }
 ~~~
- 
- 
- ## Etapa 05. Depuración pruebas
-    En este apartado se verifica que el mensaje de salida sea el correcto y sin errores ya que puede no concatenarse correctamente.
+  
+## Etapa 05. Depuración pruebas
+    
+En este apartado se verifica que el mensaje de salida sea el correcto y sin errores ya que puede no concatenarse correctamente.
+~~~    
     @Override
     public String toString(){
         return "\n Ingrese la cantidad a convertir:    " + this.monto
@@ -155,22 +155,24 @@ public class Main {
                 + "\n SOL - PESO MEXICANO:     "+ conversionSol()
                 + "\n PESO MEXICANO - SOL:     "+ conversionPeso4();
     }
- 
+~~~
  
 ## Etapa 06. Documentación
+
 Mediante el codigo fuente presentado se podra observar una serie de conversiones de un tipo de moneda a otra, este software fue creado con la intecion de ayudar de una manera rapida a poder conocer los valores de intercambio de monedas de algunos paises que se tomaron como ejemplos.
  
- ## Ejercicio 02
+## Ejercicio 02
 
 
- ## Etapa 01. Descripción del problema
- Se requiere un programa en Java para calcular el resultado de la suma, diferencia, producto, módulo y cociente de dos números decimales de cualquier longitud.
-
-
- ## Etapa 02. Definición de la solución
+## Etapa 01. Descripción del problema
  
- ~~~
+Se requiere un programa en Java para calcular el resultado de la suma, diferencia, producto, módulo y cociente de dos números decimales de cualquier longitud.
+
+## Etapa 02. Definición de la solución
+ 
+~~~
 - Entrada
+  
   double num1
   double num2
   double suma
@@ -180,6 +182,7 @@ Mediante el codigo fuente presentado se podra observar una serie de conversiones
   double cociente
 
 - Proceso
+  
   Solicitar numero 1 y numero 2
   Suma de ambos numeros 
   Resta de ambos numeros 
@@ -188,6 +191,7 @@ Mediante el codigo fuente presentado se podra observar una serie de conversiones
   Cociente de ambos numeros
  
 - Salida
+  
   El resultado de la suma
   El resultado de la resta 
   El resultado del producto
@@ -196,14 +200,12 @@ Mediante el codigo fuente presentado se podra observar una serie de conversiones
  
  ~~~
 
-
- ## Etapa 03. Diseño la solución
+## Etapa 03. Diseño la solución
  
- ![](https://github.com/omararguellesgar/Ejercicios04-02-2023/blob/master/Diagrama%2004.02.2023.png)
-
+![](https://github.com/omararguellesgar/Ejercicios04-02-2023/blob/master/Diagrama%2004.02.2023.png)
  
- ## Etapa 04. Desarrollo de la solución
- ~~~
+## Etapa 04. Desarrollo de la solución
+~~~
  public class Ejercicio1 {
     double numero1, numero2;
 
@@ -261,10 +263,10 @@ public class Main {
     }
 }
 ~~~
- 
-  
- ## Etapa 05. Depuración pruebas
- Se verifica que los operadores sean los correctos y realizen la funcion solicitada
+   
+## Etapa 05. Depuración pruebas 
+
+Se verifica que los operadores sean los correctos y realizen la funcion solicitada
  public double suma() {
         return (this.numero1 + this.numero2);
     }
@@ -285,25 +287,27 @@ public class Main {
     }
  
  
- ## Etapa 06. Documentación
+## Etapa 06. Documentación
  
- Mediante el codigo fuente presentado se podran realizar las operaciones artimeticas basicas empleando los metodos implementados, dando como resultado una suma, una   resta, una multiplicación, una division y el modulo de un par de numeros.
+Mediante el codigo fuente presentado se podran realizar las operaciones artimeticas basicas empleando los metodos implementados, dando como resultado una suma, una    resta, una multiplicación, una division y el modulo de un par de numeros.
  
  
 ##  Ejercicio 03
 
 
 ## Etapa 01. Descripción del problema
-Se requiere un programa en Java para determinar cuál es el número más pequeño, cuál es el número más grande y cuál es el número intermedio de los tres ingresados.
 
+Se requiere un programa en Java para determinar cuál es el número más pequeño, cuál es el número más grande y cuál es el número intermedio de los tres ingresados.
 
 ## Etapa 02. Definición de la solución
 
 ~~~
 - Entrada
+  
   float numero, numero2, numero3, media = 0;
   
 - Proceso
+  
   Solicitar primer numero a evaluar
   Solicitar segundo numero a evaluar
   Solicitar tercer numero a evaluar
@@ -316,22 +320,93 @@ Se requiere un programa en Java para determinar cuál es el número más pequeñ
 
 - Salida
   
+  El mayor es
+  El menor es
+  El medio es
   
 ~~~
- 
- 
+  
 ## Etapa 03. Diseño la solución
 
+![](https://github.com/omararguellesgar/Ejercicios04-02-2023/blob/master/Diagrama%2004.02.2023.2.png)
 
 
 ## Etapa 04. Desarrollo de la solución
- 
- 
-## Etapa 05. Depuración pruebas
-  
- 
-## Etapa 06. Documentación
- 
- 
- ~~~
+~~~
+public class Media {
+    float numero, numero2, numero3, media = 0;
 
+    public Media() {
+    }
+
+    public Media(float numero, float numero2, float numero3, float media) {
+        this.numero = numero;
+        this.numero2 = numero2;
+        this.numero3 = numero3;
+        this.media = media;
+    }
+
+    public float mayor() {
+        return (Math.max(numero, Math.max(numero2, numero3)));
+    }
+
+    public float minimo() {
+        return (Math.min(numero, Math.min(numero2, numero3)));
+    }
+
+    public float medio() {
+        if (numero >= numero2 && numero >= numero3)
+            media = numero2;
+        if (numero2 >= numero3 && numero3 >= numero)
+            media = numero3;
+        if (numero3 >= numero && numero >= numero2)
+            media = numero;
+        return (media);
+    }
+
+        @Override
+        public String toString () {
+            return "NUMEROS A EVALUAR" +
+                    "\n Numero 1:   " + this.numero
+                    + "\n Numero 2 :  " + this.numero2
+                    + "\n Numero 3:   " + this.numero3
+                    + "\n EL MAYOR ES:    " + mayor()
+                    + "\n EL MENOR ES:    " + minimo()
+                    + "\n EL MEDIO ES:    " + medio();
+        }
+    }
+import javax.swing.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Media c = new Media();
+
+        c.numero = Float.parseFloat(JOptionPane.showInputDialog("INGRESE EL PRIMER NUMERO A EVALUAR;    "));
+        c.numero2 = Float.parseFloat(JOptionPane.showInputDialog("INGRESE EL SEGUNDO NUMERO A EVALUAR:    "));
+        c.numero3 = Float.parseFloat(JOptionPane.showInputDialog("INGRESE EL TERCER NUMERO A EVALUAR:    "));
+
+        JOptionPane.showMessageDialog(null,c.toString());
+
+    }
+}
+~~~ 
+## Etapa 05. Depuración pruebas
+
+Se verifica que la validación de los numeros mayor y menor sean las correctas y evitar se realize incorrecto, teniendo dentro de este mismo la comprbación del numero medio que queda entre los tres.
+
+
+~~~ 
+ public float medio() {
+        if (numero >= numero2 && numero >= numero3)
+            media = numero2;
+        if (numero2 >= numero3 && numero3 >= numero)
+            media = numero3;
+        if (numero3 >= numero && numero >= numero2)
+            media = numero;
+        return (media);
+    }
+~~~
+
+## Etapa 06. Documentación
+
+El programa realizado tiene la inteción de ayudar de manera automatica a encontrar el numero medio que queda entre tres numeros ingresados, dando como salida final el numero mayor de los tres, el numero menor de los tres y el numero que queda en medio de esos mismos. Se emplean metodos de validación para poder encontrar los resultados.
