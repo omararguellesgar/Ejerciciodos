@@ -10,40 +10,53 @@ Se requiere un programa en Java para convertir una cantidad de dinero en otros t
 
 ~~~
 - Entrada
-  float cantidad
-  String moneda1, moneda2, moneda3, moneda4, moneda5
-  double conversion
+  double monto , valorDolar = 18.94, valorEuro = 20.29, valorLibra = 22.86, valorFranco = 20.55, valorBit = 434812.81
   
 - Proceso
-  Solicitar moneda a inicial
-  Solicitar cantidad a convertir
-  Solicitar moneda para procesar conversión
+  Conversion de dolar a peso
+  Conversion de peso a dolar
+  Conversion de euro a peso
+  Conversion de peso a euro
+  Conversion de libra a peso
+  Conversion de peso a libra
+  Conversion de franco a peso
+  Conversion de peso a franco
+  Conversion de bitcoin a peso
+  Conversion de peso a bitcoin
   
-  Si el monto es mayor o igual que cero entonces se convertirá a la moneda deseada
-  Si el monto es menor que cero entonces se cancela la operación
- 
+  
 - Salida
   
-  +----------+---------------+---------------------+----------------+
-  | CANTIDAD | MONEDA ORIGEN | CANTIDAD CONVERTIDA | MONEDA DESTINO |
-  +----------+---------------+---------------------+----------------+
-  |       10 |          DLLS |              189.79 |            MXN |
-  +----------+---------------+---------------------+----------------+
-  |       10 |          DLLS |                8.32 |          LIBRA |
-  +----------+---------------+---------------------+----------------+
-  |       10 |          DLLS |                9.33 |           EURO |
-  +----------+---------------+---------------------+----------------+
-  |       10 |          DLLS |               78.38 |        QUETZAL |
-  +----------+---------------+---------------------+----------------+
-  |       10 |          DLLS |                9.23 |         FRANCO |
-  +----------+---------------+---------------------+----------------+
+  +----------+---------------+----------------------+----------------+
+  | CANTIDAD | MONEDA ORIGEN | CANTIDAD CONVERTIDA  | MONEDA DESTINO |
+  +----------+---------------+----------------------+----------------+
+  |        1 |          DLLS |               18.94  |            MXN |
+  +----------+---------------+----------------------+----------------+
+  |        1 |           MXN |  0.05279831045406547 |           DLLS |
+  +----------+---------------+----------------------+----------------+
+  |        1 |          EURO |                20.29 |            MXN |
+  +----------+---------------+----------------------+----------------+
+  |        1 |           MXN |  0.04928536224741252 |           EURO |
+  +----------+---------------+----------------------+----------------+
+  |        1 |         LIBRA |                22.86 |            MXN |
+  +----------+---------------+----------------------+----------------+
+  |        1 |           MXN | 0.043744531933508315 |          LIBRA |
+  +----------+---------------+----------------------+----------------+
+  |        1 |        FRANCO |                20.55 |            MXN |
+  +----------+---------------+----------------------+----------------+
+  |        1 |           MXN |    0.048661800486618 |         FRANCO |
+  +----------+---------------+----------------------+----------------+
+  |        1 |           BIT |            434812.81 |            MXN |
+  +----------+---------------+----------------------+----------------+
+  |       1  |           MXN |2.2998402461969784E-6 |            BIT |
+  +----------+---------------+----------------------+----------------+
 
 ~~~
  
  
  ## Etapa 03. Diseño la solución
  
- ![](https://github.com/edgardegantea/Ejercicio01/blob/master/Diagrama%20de%20clases.png)
+ ![]()
  
  ## Etapa 04. Desarrollo de la solución
  
