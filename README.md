@@ -6,6 +6,7 @@ actividad de clase 04/02/2023
 ## Etapa 01. Descripción del problema
 Se requiere un programa en Java para convertir una cantidad de dinero en otros tipos de monedas (al menos a cinco tipos de monedas distintas). 
 
+
 ## Etapa 02. Definición de la solución
 
 ~~~
@@ -52,11 +53,12 @@ Se requiere un programa en Java para convertir una cantidad de dinero en otros t
   +----------+---------------+----------------------+----------------+
 
 ~~~
- 
- 
+
+
  ## Etapa 03. Diseño la solución
  
  ![](https://github.com/omararguellesgar/Ejercicios04-02-2023/blob/master/Diagrama%2004.02.2023.1.png)
+ 
  
  ## Etapa 04. Desarrollo de la solución
   ~~~
@@ -155,14 +157,16 @@ public class Main {
     }
  
  
- ## Etapa 06. Documentación
- Mediante el codigo fuente presentado se podra observar una serie de conversiones de un tipo de moneda a otra, este software fue creado con la intecion de ayudar de una manera rapida a poder conocer los valores de intercambio de monedas de algunos paises que se tomaron como ejemplos.
+## Etapa 06. Documentación
+Mediante el codigo fuente presentado se podra observar una serie de conversiones de un tipo de moneda a otra, este software fue creado con la intecion de ayudar de una manera rapida a poder conocer los valores de intercambio de monedas de algunos paises que se tomaron como ejemplos.
  
  ## Ejercicio 02.
- 
+
+
  ## Etapa 01. Descripción del problema
  Se requiere un programa en Java para calcular el resultado de la suma, diferencia, producto, módulo y cociente de dos números decimales de cualquier longitud.
- 
+
+
  ## Etapa 02. Definición de la solución
  
  ~~~
@@ -192,10 +196,12 @@ public class Main {
  
  ~~~
 
+
  ## Etapa 03. Diseño la solución
  
  ![](https://github.com/omararguellesgar/Ejercicios04-02-2023/blob/master/Diagrama%2004.02.2023.png)
 
+ 
  ## Etapa 04. Desarrollo de la solución
  ~~~
  public class Ejercicio1 {
@@ -256,8 +262,7 @@ public class Main {
 }
 ~~~
  
- 
- 
+  
  ## Etapa 05. Depuración pruebas
  Se verifica que los operadores sean los correctos y realizen la funcion solicitada
  public double suma() {
@@ -285,11 +290,12 @@ public class Main {
  Mediante el codigo fuente presentado se podran realizar las operaciones artimeticas basicas empleando los metodos implementados, dando como resultado una suma, una   resta, una multiplicación, una division y el modulo de un par de numeros.
  
  
- ##  Ejercicio 03.
+##  Ejercicio 03.
 
 
 ## Etapa 01. Descripción del problema
 Se requiere un programa en Java para determinar cuál es el número más pequeño, cuál es el número más grande y cuál es el número intermedio de los tres ingresados.
+
 
 ## Etapa 02. Definición de la solución
 
@@ -312,20 +318,16 @@ Se requiere un programa en Java para determinar cuál es el número más pequeñ
 ~~~
  
  
- ## Etapa 03. Diseño la solución
+## Etapa 03. Diseño la solución
  
 
- 
- ## Etapa 04. Desarrollo de la solución
- 
+## Etapa 04. Desarrollo de la solución
  
  
+## Etapa 05. Depuración pruebas
+  
  
- ## Etapa 05. Depuración pruebas
- 
- 
- 
- ## Etapa 06. Documentación
+## Etapa 06. Documentación
  
  
  ~~~
