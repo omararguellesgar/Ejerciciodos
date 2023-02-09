@@ -56,19 +56,107 @@ Se requiere un programa en Java para convertir una cantidad de dinero en otros t
  
  ## Etapa 03. Diseño la solución
  
- ![]()
+ ![](https://github.com/omararguellesgar/Ejercicios04-02-2023/blob/master/Diagrama%2004.02.2023.1.png)
  
  ## Etapa 04. Desarrollo de la solución
- 
- 
+  ~~~
+ public class Ejercicio {
+    double monto, valorDolar = 18.94, valorEuro = 20.29, valorLibra = 22.86, valorFranco = 20.55, valorBit = 434812.81 ;
+
+    public Ejercicio() {
+    }
+
+    public Ejercicio(double monto, double valorDolar, double valorEuro, double valorLibra,double valorFranco,double valorBit) {
+        this.monto = monto;
+        this.valorDolar = valorDolar;
+        this.valorEuro = valorEuro;
+        this.valorLibra = valorLibra;
+        this.valorFranco = valorFranco;
+        this. valorBit = valorBit;
+    }
+
+    public double conversionDolar() {
+        return (this.monto * this.valorDolar);
+    }
+
+    public double conversionPeso() {
+        return (this.monto / this.valorDolar);
+    }
+
+    public double conversionEuro() {
+        return (this.monto * valorEuro);
+    }
+
+    public double conversionPeso1() {
+        return (this.monto / valorEuro);
+    }
+    public double conversionLibra(){
+        return (this.monto * valorLibra);
+    }
+    public double conversionPeso2(){
+        return (this.monto / valorLibra);
+    }
+    public double conversionFranco(){
+        return (this.valorFranco * this.monto);
+    }
+    public double conversionPeso3(){
+        return (this.monto / this.valorFranco);
+    }
+    public double conversionBit(){
+        return (this.monto * this.valorBit);
+    }
+    public double conversionPeso4(){
+        return (this.monto / this.valorBit);
+    }
+
+    @Override
+    public String toString(){
+        return "\n Ingrese la cantidad a convertir:    " + this.monto
+                + "\n DOLAR - PESO MEXICANO:     " + conversionDolar()
+                + "\n PESO MEXICANO - DOLAR:    " + conversionPeso()
+                + "\n EURO - PESO MEXICANO:     "+ conversionEuro()
+                + "\n PESO MEXICANO - EURO:     "+ conversionPeso1()
+                + "\n LIBRA - PESO MEXICANO:     "+ conversionLibra()
+                + "\n PESO MEXICANO - LIBRA:     "+ conversionPeso2()
+                + "\n FRANCOS - PESO MEXICANO:     "+ conversionFranco()
+                + "\n PESO MEXICANO - FRANCOS:     "+ conversionPeso3()
+                + "\n BIT - PESO MEXICANO:     "+ conversionBit()
+                + "\n PESO MEXICANO - BIT:     "+ conversionPeso4();
+    }
+}
+import javax.swing.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Ejercicio conversor = new Ejercicio();
+        conversor.monto = Double.parseDouble(JOptionPane.showInputDialog("Ingrese la cantidad a convertir;    "));
+        JOptionPane.showMessageDialog(null,conversor.toString());
+
+    }
+}
+~~~
  
  
  ## Etapa 05. Depuración pruebas
- 
+    En este apartado se verifica que el mensaje de salida sea el correcto y sin errores ya que puede no concatenarse correctamente.
+    @Override
+    public String toString(){
+        return "\n Ingrese la cantidad a convertir:    " + this.monto
+                + "\n DOLAR - PESO MEXICANO:     " + conversionDolar()
+                + "\n PESO MEXICANO - DOLAR:    " + conversionPeso()
+                + "\n EURO - PESO MEXICANO:     "+ conversionEuro()
+                + "\n PESO MEXICANO - EURO:     "+ conversionPeso1()
+                + "\n LIBRA - PESO MEXICANO:     "+ conversionLibra()
+                + "\n PESO MEXICANO - LIBRA:     "+ conversionPeso2()
+                + "\n FRANCOS - PESO MEXICANO:     "+ conversionFranco()
+                + "\n PESO MEXICANO - FRANCOS:     "+ conversionPeso3()
+                + "\n SOL - PESO MEXICANO:     "+ conversionSol()
+                + "\n PESO MEXICANO - SOL:     "+ conversionPeso4();
+    }
  
  
  ## Etapa 06. Documentación
- 
+ Mediante el codigo fuente presentado se podra observar una serie de conversiones de un tipo de moneda a otra, este software fue creado con la intecion de ayudar de una manera rapida a poder conocer los valores de intercambio de monedas de algunos paises que se tomaron como ejemplos.
  
  ## Ejercicio 02.
  
